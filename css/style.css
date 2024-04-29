@@ -26,7 +26,10 @@ h1 {
 /*  css box */
 .box {
   background-color: rgb(15, 14, 23);
-  box-shadow: 2px 1px 1px 3px rgb(224, 224, 224);
+  /*  il primo valore del box-shadow indica la distasza in cui cade l'ombra destra o sinistra
+      il secondo valore indica la distanza in cui cade l'ombra sopra o sotto 
+      il terzo  valore indica la dissolvenza */
+  box-shadow: 1px 1px 10px #888888;
   color: white;
   margin: 15px;
   width: calc(100% / 3 - 30px);
@@ -44,7 +47,7 @@ a {
   color: rgb(8, 200, 248);
 }
 .box-son {
-  float: right;
+  float: right; 
   width: calc((100% / 3) * 2);
 }
 
