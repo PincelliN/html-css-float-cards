@@ -38,9 +38,12 @@ img {
   width: calc(100% / 3);
 }
 h3,
-p.work,
+h5,
 a {
   margin: 20px 20px;
+}
+h5{
+  font-weight: lighter;
 }
 a {
   text-decoration: none;
