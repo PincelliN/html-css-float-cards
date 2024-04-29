@@ -52,8 +52,7 @@ a {
 .box > img {
   float: left;
 }
-.box::after,
-.box-son::after {
+.box::after{
   content: "";
   display: table;
   clear: both;
