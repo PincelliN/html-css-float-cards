@@ -1,52 +1,60 @@
 /* css reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.box{
-    font-family: "Rubik", sans-serif;
-    width: 90%;
-    margin: 30px;
+.container {
+  font-family: "Rubik", sans-serif;
+  width: 90%;
+  margin: 50px;
 }
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-h1{
-    color: rgb(229, 49, 112);
+h1,
+p {
+  margin: 20px auto;
+}
+h1 {
+  color: rgb(229, 49, 112);
 }
 
-.box{
-    background-color: blueviolet;
+.box {
+  background-color: blueviolet;
 }
 /*  css box */
-.box{
-    background-color:rgb(15, 14, 23) ;
-    box-shadow:2px 1px 1px 3px  rgb(224, 224, 224);
-    color: white;
-    margin: 15px;
-    width: calc(100% / 3 - 30px );
+.box {
+  background-color: rgb(15, 14, 23);
+  box-shadow: 2px 1px 1px 3px rgb(224, 224, 224);
+  color: white;
+  margin: 15px;
+  width: calc(100% / 3 - 30px);
 }
-img{
-    width: calc(100% / 3);
+img {
+  width: calc(100% / 3);
 }
-h3,p,a{
-    margin: 20px 20px;
+h3,
+p.work,
+a {
+  margin: 20px 20px;
 }
-a{
-    text-decoration: none;
-    color: rgb(8, 200, 248);
+a {
+  text-decoration: none;
+  color: rgb(8, 200, 248);
 }
-.box-son{
-    float: right;
-    width: calc((100% / 3)* 2);
+.box-son {
+  float: right;
+  width: calc((100% / 3) * 2);
 }
 
-.box,.box>img{
-    float: left;
+.box,
+.box > img {
+  float: left;
 }
-.box::after,.box-son::after{
-    content: "";
-    display: table;
-    clear: both;
+.box::after,
+.box-son::after {
+  content: "";
+  display: table;
+  clear: both;
 }
