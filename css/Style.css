@@ -1,0 +1,19 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    font-family: "Rubik", sans-serif;
+    width: 90%;
+    margin: 30px;
+    /* Backup */
+    background-color: grey;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: rgb(229, 49, 112);
+}
