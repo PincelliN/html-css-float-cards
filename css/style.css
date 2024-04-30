@@ -19,14 +19,10 @@ p {
 h1 {
   color: rgb(229, 49, 112);
 }
-
-.box {
-  background-color: blueviolet;
-}
 /*  css box */
 .box {
   background-color: rgb(15, 14, 23);
-  /*  il primo valore del box-shadow indica la distasza in cui cade l'ombra destra o sinistra
+  /*  il primo valore del box-shadow indica la distanza in cui cade l'ombra destra o sinistra
       il secondo valore indica la distanza in cui cade l'ombra sopra o sotto 
       il terzo  valore indica la dissolvenza */
   box-shadow: 1px 1px 10px #888888;
@@ -50,10 +46,9 @@ a {
   color: rgb(8, 200, 248);
 }
 .box-son {
-  float: right; 
   width: calc((100% / 3) * 2);
 }
-
+.box-son,
 .box,
 .box > img {
   float: left;
